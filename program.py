@@ -1,4 +1,4 @@
-
+from actors import Wizard, Creature
 
 def main():
     print_header()
@@ -13,6 +13,16 @@ def print_header():
 
 
 def game_loop():
+
+    creatures = [
+        Creature(),
+        Creature(),
+        Creature(),
+        Creature(),
+        Creature(),
+    ]
+
+    hero = Wizard()
 
     while True:
 
